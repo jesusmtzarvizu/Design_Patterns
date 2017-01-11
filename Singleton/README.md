@@ -12,5 +12,6 @@ The Singleton pattern ensures that a class has only one instance and provides a 
 4. Define all constructors to be **protected** or **private**
 5. Clients may only use the accessor function to manipulate the Singleton
 
+## An Example in Java :
 The Singleton class is named [Circle.java](https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/Singleton/Circle.java)
-The main class is named [SingletonPattern.java](https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/Singleton/SingletonPattern.java)
+</br>The main class is named [SingletonPattern.java](https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/Singleton/SingletonPattern.java)
