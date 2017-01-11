@@ -12,9 +12,9 @@ public class Circle{
 	
 	}
 
-	Step 3: Create a private static variable of the class created in step 1.
-	and this variable should be private and static and it should refer to
-        the instance of class created in step 1.
+	//Step 3: Create a private static variable of the class created in step 1.
+	//and this variable should be private and static and it should refer to
+        //the instance of class created in step 1.
 	
 	private static Circle circleInstance = new Circle();
 
@@ -25,8 +25,8 @@ public class Circle{
 		return new Circle();
 	}
 
-	//step 5: There should be not be any method or constructor which can create
-	instance of this class. like the follow method:
+	//step 5: There should not be any method or constructor which can create
+	//instance of this class. like the follow method:
 
 	//public Circle getCircle(){
 	//	return new Circle();
