@@ -11,3 +11,6 @@ The Singleton pattern ensures that a class has only one instance and provides a 
 3. Do "lazy initialization" (creation on first use) in the accessor function.
 4. Define all constructors to be **protected** or **private**
 5. Clients may only use the accessor function to manipulate the Singleton
+
+The Singleton class is named [Circle.java](https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/Singleton/Circle.java)
+The main class is named [SingletonPattern.java](https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/Singleton/SingletonPattern.java)
