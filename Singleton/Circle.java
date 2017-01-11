@@ -22,7 +22,7 @@ public class Circle{
 	//back with an instance of a class created in step 3.
 
 	public static Circle getInstance(){
-		return new Circle();
+		return circleInstance;
 	}
 
 	//step 5: There should not be any method or constructor which can create
