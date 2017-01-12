@@ -14,8 +14,8 @@ The client is totally decoupled from the implementation details of derived class
 4. Consider making all constructors **private** or **protected**.
 
 ## An Example in Java :
-The Factory Method class is named [AnimalFactory.java](https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/Singleton/Circle.java)
+The Factory Method class is named [AnimalFactory.java](https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/FactoryMethod/AnimalFactory.java)
 </br>The main class is named [FactoryPattern.java](https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/FactoryMethod/FactoryPattern.java)
-</br>An interface named [Animal.java] (https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/FactoryMethod/Animal.java.java)
+</br>An interface named [Animal.java] (https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/FactoryMethod/Animal.java)
 </br>A concrete class named [Dog.java] (https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/FactoryMethod/Dog.java)
 </br>A concrete class named [Cat.java] (https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/FactoryMethod/Cat.java)
