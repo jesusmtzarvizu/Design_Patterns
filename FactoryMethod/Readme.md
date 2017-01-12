@@ -2,7 +2,9 @@
 
 The Factory Method pattern Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
 
-![Alt text](singleton.png "Optional Title")
+The client is totally decoupled from the implementation details of derived classes. Polymorphic creation is now possible
+
+![Alt text](factorymethod.png.png "Optional Title")
 
 ## Check list
 
@@ -12,5 +14,8 @@ The Factory Method pattern Define an interface for creating an object, but let s
 4. Consider making all constructors **private** or **protected**.
 
 ## An Example in Java :
-The Singleton class is named [Circle.java](https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/Singleton/Circle.java)
-</br>The main class is named [SingletonPattern.java](https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/Singleton/SingletonPattern.java)
+The Factory Method class is named [AnimalFactory.java](https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/Singleton/Circle.java)
+</br>The main class is named [FactoryPattern.java](https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/FactoryMethod/FactoryPattern.java)
+</br>An interface named [Animal.java] (https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/FactoryMethod/Animal.java.java)
+</br>A concrete class named [Dog.java] (https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/FactoryMethod/Dog.java)
+</br>A concrete class named [Cat.java] (https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/FactoryMethod/Cat.java)
