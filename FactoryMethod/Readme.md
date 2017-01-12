@@ -4,7 +4,7 @@ The Factory Method pattern Define an interface for creating an object, but let s
 
 The client is totally decoupled from the implementation details of derived classes. Polymorphic creation is now possible
 
-![Alt text](factorymethod.png.png "Optional Title")
+![Alt text](factorymethod.png "Optional Title")
 
 ## Check list
 
