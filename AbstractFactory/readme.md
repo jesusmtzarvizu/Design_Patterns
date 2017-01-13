@@ -33,4 +33,4 @@ Abstract Factory  named: [BikeFactory.java](https://github.com/jesusmtzarvizu/De
 </br>A helper class Garage which will help this factories to work at the runtime named: named: [Garage.java]
 (https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/AbstractFactory/Garage.java)
 </br>The main class named: [general.java]
-(https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/AbstractFactory/General.java)
+(https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/AbstractFactory/general.java)
