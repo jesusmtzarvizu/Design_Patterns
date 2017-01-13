@@ -1,16 +1,19 @@
 #Facade
 
-The Facade pattern ensures that a class has only one instance and provides a global point of access to that instance. It is named after the singleton set, which is defined to be a set containing one element. The office of the President of the United States is a Singleton.
+* Provide a unified interface to a set of interfaces in a subsystem. 
+* Facade defines a higher-level interface that makes the subsystem easier to use.
+
+When to use it?
+When a segment of the client community needs a simplified interface to the overall functionality of a complex subsystem
 
 ![Alt text](singleton.png "Optional Title")
 
 ## Check list
 
-1. Define a private **static** attribute in the "single instance" class.
-2. Define a **public static** accessor function in the class.
-3. Do "lazy initialization" (creation on first use) in the accessor function.
-4. Define all constructors to be **protected** or **private**
-5. Clients may only use the accessor function to manipulate the Singleton
+1. Identify a simpler, unified interface for the subsystem or component.
+2. Design a 'wrapper' class that encapsulates the subsystem.
+3. The client uses (is coupled to) the Facade only.
+4. Consider whether additional Facades would add value.
 
 ## An Example in Java :
 The Facade class is named [Circle.java](https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/Singleton/Circle.java)
