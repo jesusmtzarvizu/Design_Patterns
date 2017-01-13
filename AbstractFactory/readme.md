@@ -2,9 +2,9 @@
 ## Abstractory Factory
 
 The Abstractory Factory pattern :
-*Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
-*A hierarchy that encapsulates: many possible "platforms", and the construction of a suite of "products".
-*The **new** operator considered harmful.
+* Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
+* A hierarchy that encapsulates: many possible "platforms", and the construction of a suite of "products".
+* The **new** operator considered harmful.
 ![Alt text](https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/AbstractFactory/abstractfactory.png "Optional Title")
 
 ##Example:
