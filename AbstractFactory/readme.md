@@ -19,18 +19,18 @@ The Abstractory Factory pattern :
 5. The client should retire all references to **new**, and use the factory methods to create the product objects.
 
 ## An Example in Java :
-Abstract Factory  named [BikeFactory.java](https://github.com/jesusmtzarvizu/Design_Patterns/tree/master/BikeFactory.java)
+Abstract Factory  named: [BikeFactory.java](https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/AbstractFactory/BikeFactory.java)
 </br>A Concrete Factory class (YamahaFactory) implementing Abstract Factory named: [YamahaFactory.java]
-(https://github.com/jesusmtzarvizu/Design_Patterns/tree/master/YamahaFactory.java)
+(https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/AbstractFactory/YamahaFactory.java)
 </br>Concrete Factory class (HondaFactory) implementing Abstract Factory named: [HondaFactory.java]
-(https://github.com/jesusmtzarvizu/Design_Patterns/tree/master/HondaFactory.java)
+(https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/AbstractFactory/HondaFactory.java)
 </br>Abstract Product interface (Bike) named : [Bike.java]
-(https://github.com/jesusmtzarvizu/Design_Patterns/tree/master/Bike.java)
+(https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/AbstractFactory/Bike.java)
 </br>Concrete Product (Hunk) for Abstract Product (Bike) named: [Hunk.java]
-(https://github.com/jesusmtzarvizu/Design_Patterns/tree/master/Hunk.java)
+(https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/AbstractFactory/Hunk.java)
 </br>Concrete Product (FZ) for Abstract Product (Bike) named: [FZ.java]
-(https://github.com/jesusmtzarvizu/Design_Patterns/tree/master/FZ.java)
+(https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/AbstractFactory/FZ.java)
 </br>A helper class Garage which will help this factories to work at the runtime named: named: [Garage.java]
-(https://github.com/jesusmtzarvizu/Design_Patterns/tree/master/Garage.java)
+(https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/AbstractFactory/Garage.java)
 </br>The main class named: [General.java]
-(https://github.com/jesusmtzarvizu/Design_Patterns/tree/master/General.java)
+(https://github.com/jesusmtzarvizu/Design_Patterns/blob/master/AbstractFactory/General.java)
